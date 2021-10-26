@@ -17,6 +17,8 @@ const GET_LAUNCHES = gql`
   }
 `;
 
+// Solution sur CodeSandbox : https://codesandbox.io/s/graphql-spacex-react-app-25102021-hg7lf
+
 function App() {
   const { loading, error, data } = useQuery(GET_LAUNCHES);
 
